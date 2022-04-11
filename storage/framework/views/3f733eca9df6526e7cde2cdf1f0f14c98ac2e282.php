@@ -1,0 +1,2 @@
+<?php if ($__env->exists('front-theme::views.404')) echo $__env->make('front-theme::views.404', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH /home/teraketc/AppCode/resources/views/errors/404.blade.php ENDPATH**/ ?>

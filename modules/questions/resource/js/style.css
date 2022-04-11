@@ -1,0 +1,204 @@
+.feq_list li{
+    list-style: none;
+    position: relative;
+    border:1px solid #dbdbdb;
+    background: #fcfcfc;
+    margin-right: 171px;
+    padding: 19px 29px 50px;
+    color:#4d4d4d;
+    min-height: 220px;
+    margin-top: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.feq_list li::before{
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color:  transparent transparent transparent #dbdbdb;
+    border-width: 11px 0px 11px 11px;
+    left: 100%;
+    top: 50%;
+}
+.feq_list .feq_header{
+    width: 122px;
+    margin-left: 44px;
+    position: absolute;
+    left: 100%;
+    top:35px;
+    text-align: center;
+    font-size: 20px;
+}
+.feq_list .feq_header span{
+    font-size: 15px !important;
+    display: block;
+}
+.feq_list .anserFormItem .feq_header::before{
+    content:"" !important;
+}
+.feq_list .anserFormItem  .btn-secondary{
+    background-color: #35ccde !important;
+    border-color: #35ccde !important;
+}
+.feq_list .anserFormItem  h5{
+    width: 100% !important;
+}
+.feq_list .footer{
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    right: 0px;
+    bottom: 25px;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+.feq_filter{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+}
+.feq_filter_item{
+    display: flex;
+    margin: 0px !important;
+}
+.feq_filter_item li{
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 14px 19px;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px !important;
+}
+.feq_filter_item::before{
+    display: inline-flex;
+    content: attr(data-title);
+    padding: 14px 19px;
+}
+.feq_filter_item .is-active::after{
+    background-color: #00bfd6;
+    position: absolute;
+    height: 1px;
+    content:"";
+    top:100%;
+    right: 0px;
+    left: 0px;
+}
+.feq_filter p{
+    padding: 14px 19px;
+    margin-bottom: 0px !important;
+}
+.question-loading{
+    width:100%;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question_buttom_div{
+    align-items: center;
+}
+.question-header-box{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    align-items: center;
+}
+.add-question-link{
+    letter-spacing: normal !important;
+    color:#41a7b4 !important;
+    border:1px solid #41a7b4;
+}
+.questionlist ul{
+    padding-bottom: 5px;
+}
+.questionlist ul li{
+    list-style: none;
+}
+.questionlist .footer{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.mobile-section{
+    width: 95%;
+    margin: 10px auto;
+    font-size: 14px !important;
+    color: #858585;
+}
+.mobile-feq_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 1px solid #85858529;
+    padding: 10px 7px;
+    color: black;
+}
+.mobile-feq_list {
+    padding-bottom: 5px;
+}
+.mobile-feq_header {
+    font-weight: bold;
+    color: black;
+}
+.questionlist .mobile-section p{
+    width: 95%;
+    color: #858585;
+    margin: 10px auto;
+    font-size: 14px !important;
+}
+.data_link {
+    color: #1ca2db !important;
+    border-bottom: 1px dashed #1ca2db;
+}
+.answer_li .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    width: 100%;
+    align-items: center;
+}
+.mobile-feq_list .btn_like {
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 1px solid #00bfd6;
+    background-color: #fff;
+    padding: 2px 7px;
+    color: #00bfd6;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.mobile-feq_list .btn_dislike {
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border: 1px solid #ef5661;
+    background-color: #fff;
+    padding: 2px 7px;
+    color: #ef5661;
+    font-size: 14px;
+}
+.more_question{
+    font-size:14px;
+    color: black !important;
+}
+.disabled_textarea_div{
+    padding: 10px;
+    width: 100%;
+    height: 180px;
+    resize: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    background-color:#dfdfdf;
+}
+.mobile-feq_list{
+    padding-left: 0px !important;
+}
+
+
+

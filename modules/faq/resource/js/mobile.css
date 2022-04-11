@@ -1,0 +1,39 @@
+.mobile-theme .page_cover {
+    width: 100%;
+    height: 300px !important;
+    background-size: cover;
+}
+.mobile-theme .page_cover_title{
+    width: 100%;
+    padding-top:80px;
+    color: white;
+    text-align: center;
+}
+.mobile-theme .page_cover .search_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mobile-theme .page_cover .v-input__slot{
+    background-color:white !important;
+    min-width:200px !important;
+}
+.mobile-theme .faq_cat_icon {
+    width: 80px;
+    height: 80px;
+    background: #f9f9f9 50% no-repeat;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-theme .small_answer ul li{
+    list-style:none !important;
+}
+.mobile-theme .cat_info h6{
+    font-size:15px !important;
+}
+.mobile-theme .common_question_list h6{
+    font-size:15px !important;
+}

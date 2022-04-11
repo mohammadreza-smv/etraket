@@ -1,0 +1,13 @@
+Vue.component('mobile-login-box',require('./components/MobileLoginBox').default);
+Vue.component('login-box',require('./components/LoginBox').default);
+Vue.component('auth-login-box',require('./components/AuthLoginBox').default);
+Vue.component('auth-menu',require('./components/AuthMenu').default);
+Vue.component('register-detail',require('./components/RegisterDetail').default);
+Vue.component('auth-register-box',require('./components/AuthRegisterBox').default);
+Vue.component('forgot-password',require('./components/ForgotPassword').default);
+Vue.component('user-edit-name',require('./components/UserEditName').default);
+Vue.component('user-edit-mobile',require('./components/UserEditMobile').default);
+Vue.component('user-edit-bank_card_number',require('./components/UserBankCart').default);
+Vue.component('user-national_identity_number',require('./components/UserNationalIdentityNumber').default);
+Vue.component('user-edit-email',require('./components/UserEditEmail').default);
+Vue.component('date-of-birth',require('./components/DateOfBirth').default);

@@ -1,0 +1,2 @@
+<?php if ($__env->exists('orders::order-list',['title'=>'آخرین سفارشات','removePaginate'=>true])) echo $__env->make('orders::order-list',['title'=>'آخرین سفارشات','removePaginate'=>true], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH /home2/teraketc/AppCode/modules/orders/resource/views/widgets/last_orders.blade.php ENDPATH**/ ?>

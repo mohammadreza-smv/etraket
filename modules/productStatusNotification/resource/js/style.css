@@ -1,0 +1,27 @@
+.notification-btn{
+    width:100%;
+    margin-top:20px;
+    height:40px !important;
+    letter-spacing:normal !important;
+    background-color: #b0b0b0 !important;
+}
+.notification-btn span{
+    margin:0px !important;
+    font-weight: normal !important;
+    font-size: 15px;
+    color: white !important;
+}
+.notification-box-header{
+    justify-content: space-between;
+    letter-spacing:normal !important;
+}
+.notification-icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.server-response{
+    padding: 20px 0px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}

@@ -1,0 +1,98 @@
+.gallery_box_content .right_box{
+    overflow: hidden;
+    width: 15%;
+    border-left: 1px solid #c8c8c8;
+}
+.img_swiper{
+    overflow-y: hidden;
+    transform: translate3d(0px,200px,0px);
+    transition-duration: 300ms;
+}
+.img_swiper .swiper-slide{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.img_select_border{
+    border-left: 2px solid #00bfd6 !important;
+}
+.gallery_box_content .swiper-slide img{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+#product_gallery_box .left_box img{
+    margin: auto;
+    display: block;
+}
+.v-dialog{
+    overflow-y: hidden !important;
+}
+.mdi-minus,.mdi-plus{
+    margin-top:5px;
+}
+#product_gallery_box .left_box .mdi-close{
+    position: absolute;
+    left:5px;
+    top:20px;
+}
+.mobile-gallery{
+    object-fit: scale-down;
+    width:100%;
+    height:300px;
+}
+
+.mobile-gallery-box .v-btn--icon.v-size--small{
+    height: 18px !important;
+    width: 18px !important;
+    margin:5px !important;
+}
+.mobile-gallery-box .theme--dark.v-btn.v-btn--icon {
+    color: #dbdbdb;
+}
+.mobile-gallery-box{
+    margin: auto;
+}
+.mobile-gallery-box .v-btn--active{
+    color: #8e8e8e !important;
+}
+.product_gallery_box ul{
+    display: inline-flex;
+    width: 100%;
+    padding-top: 30px;
+    border-top:1px solid #e2e2e2;
+    margin-right:20px;
+}
+.product_gallery_box ul li{
+    list-style: none;
+    width:23%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin-left:10px;
+}
+.product_gallery_box ul img{
+    max-width:90%;
+    margin:auto;
+    display: block;
+    margin-top: 0px !important;
+}
+.product_gallery_box ul .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product_gallery_box ul .button div {
+    display: flex;
+    width: 34px;
+    justify-content: space-between;
+}
+.product_gallery_box ul .button div span{
+    width: 8px;
+    height: 8px;
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+}

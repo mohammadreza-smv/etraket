@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #cdd3d9;
+      }
+    </style>
+  </defs>
+  <g id="XMLID_801_" transform="translate(13.15 13)">
+    <rect id="Rectangle_856" data-name="Rectangle 856" class="cls-1" width="51" height="51" transform="translate(-13.15 -13)"/>
+    <path id="XMLID_802_" class="cls-2" d="M10.287,99.73H5.326a.4.4,0,0,0-.4.4v15.937a.4.4,0,0,0,.4.4h4.961a.4.4,0,0,0,.4-.4V100.129A.4.4,0,0,0,10.287,99.73Z" transform="translate(-4.534 -91.807)"/>
+    <path id="XMLID_803_" class="cls-2" d="M3.274.341a3.271,3.271,0,1,0,3.271,3.27A3.276,3.276,0,0,0,3.274.341Z" transform="translate(0 -0.341)"/>
+    <path id="XMLID_804_" class="cls-2" d="M116.083,94.761a5.827,5.827,0,0,0-4.359,1.83V95.556a.4.4,0,0,0-.4-.4h-4.751a.4.4,0,0,0-.4.4v15.937a.4.4,0,0,0,.4.4h4.95a.4.4,0,0,0,.4-.4v-7.885c0-2.657.722-3.692,2.574-3.692,2.017,0,2.178,1.66,2.178,3.829v7.749a.4.4,0,0,0,.4.4h4.952a.4.4,0,0,0,.4-.4v-8.742C122.424,98.8,121.671,94.761,116.083,94.761Z" transform="translate(-97.712 -87.234)"/>
+  </g>
+</svg>

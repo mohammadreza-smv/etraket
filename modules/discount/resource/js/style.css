@@ -1,0 +1,10 @@
+.discount-btn{
+    letter-spacing:normal !important;
+    height:55px !important;
+    border-radius:0px !important;
+    -webkit-border-radius:0px !important;
+}
+.discount-input{
+    border-radius:0px !important;
+    -webkit-border-radius:0px !important;
+}

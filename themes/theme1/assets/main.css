@@ -1,0 +1,36 @@
+.v-text-field--outlined.v-input--has-state fieldset, .v-text-field--outlined.v-input--is-focused fieldset{
+    border-width:1px !important;
+}
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-top:20px;
+}
+.pagination .page-item.active{
+    z-index: 3;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.pagination .page-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+
+}
+.pagination .page-item a{
+    text-decoration:none;
+}
+.pagination .page-item.active a{
+    color:white !important;
+}
+.fake_tag{
+    font-size: 13px !important;
+    margin-top: 20px;
+}

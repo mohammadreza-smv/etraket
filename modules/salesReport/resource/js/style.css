@@ -1,0 +1,27 @@
+.path-city{
+    fill: white;
+}
+.path-city{
+    stroke: black;
+}
+.path-city:hover{
+    /*fill: #d9c70f !important;*/
+}
+.sea-color{
+    fill: #03a9f4;
+}
+.province-ul{
+    padding: 0px !important;
+}
+.province-ul li{
+    font-size:14px;
+    list-style: none;
+    display: flex;
+    padding:5px 0px;
+    align-items: center;
+}
+.line{
+    border-radius:5px !important;
+    -webkit-border-radius:5px !important;
+    margin: 0px 10px;
+}

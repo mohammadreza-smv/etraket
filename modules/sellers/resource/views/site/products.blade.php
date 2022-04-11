@@ -1,0 +1,10 @@
+<?php
+    $mapLinks=[
+        ['title'=>$seller->brand_name,'link'=>url('seller/'.$seller->id)]
+    ]
+?>
+@include('front-theme::views.cat_product',[
+    'before_filter'=>'sellers::site.shop-info',
+    'mapLinks'=>$mapLinks,
+    'before_products'=>'sellers::site.shop-description'
+])
